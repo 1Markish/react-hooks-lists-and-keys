@@ -9,7 +9,7 @@ function ColorList() {
     "hotpink",
   ];
 
-  return (
+  return (<>
     <div>
       <h1>Top 5 CSS Colors</h1>
       <ol>
@@ -20,6 +20,7 @@ function ColorList() {
         <li style={{ color: colors[4] }}>{colors[4]}</li>
       </ol>
     </div>
+    </>
   );
 }
 
